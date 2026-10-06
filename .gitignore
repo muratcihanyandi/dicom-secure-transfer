@@ -1,0 +1,31 @@
+# Gizli anahtar ve sertifikalar — her makinede tools/generate_certs.py ile uretilir
+certs/
+*.pem
+*.key
+
+# Calisma zamani ciktilari (oturumlar)
+Client/Encrypted_File/
+Server/Encrypted/
+Server/Files/
+Server/Tumor/
+Server/Tumorsuz/
+Server/Temp/
+Server/Reports/
+
+# Makineye ozel ayarlar
+Client/config.json
+Server/config.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Eski yedek/diger
+Server/server.zip
+
+# IDE / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
